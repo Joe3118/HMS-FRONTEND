@@ -1,0 +1,70 @@
+
+.about-us-section {
+    padding-top: 80px;
+    background-color: #FEFAE0;
+  }
+  
+  .banner-container {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+  }
+  
+  .banner-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .about-hms-box {
+    position: absolute;
+    bottom: 0;
+    left: 8rem;
+    padding: 1rem;
+    background-color: #FAEDCD;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    width: 400px;
+    text-align: center;
+    z-index: 10;
+  }
+  
+  .about-hms-title {
+    font-size: 1.875rem;
+    font-weight: 600;
+  }
+  
+  .background-section {
+    background-color: #FEFAE0;
+    padding-top: 1.25rem;
+  }
+  
+  .content-container {
+    max-width: 80rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+    gap: 0.25rem;
+    height: 100vh;
+  }
+  
+  .background-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  
+  .background-text {
+    font-size: 1.125rem;
+  }
+  
+  .hidden-lg {
+    display: none;
+  }
+  
+  @media (min-width: 1024px) {
+    .hidden-lg {
+      display: block;
+    }
+  }
